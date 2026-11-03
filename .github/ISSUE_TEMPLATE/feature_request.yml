@@ -1,0 +1,16 @@
+name: Feature request
+description: An idea for the next field.
+title: "Feature: "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What should Hold do
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it would help
+    validations:
+      required: true
