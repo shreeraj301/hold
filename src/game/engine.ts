@@ -99,7 +99,7 @@ export function createGame(canvas: HTMLCanvasElement): GameApi {
   const path: PathGeom = makePath();
   const audio: AudioBus = createAudio();
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  let save = loadSave();
+  const save = loadSave();
 
   let phase: Phase = "menu";
   let gold = START_GOLD;

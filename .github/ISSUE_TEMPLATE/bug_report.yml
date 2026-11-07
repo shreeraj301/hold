@@ -1,0 +1,27 @@
+name: Bug report
+description: Something on the field went wrong.
+title: "Bug: "
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what the field did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Chrome on macOS
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Wave number, instruments you planted, a screenshot.

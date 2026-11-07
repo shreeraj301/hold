@@ -1,0 +1,14 @@
+name: Question
+description: Something about how a field works.
+title: "Question: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you already tried
